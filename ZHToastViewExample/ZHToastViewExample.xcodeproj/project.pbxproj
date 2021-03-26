@@ -16,6 +16,7 @@
 		30CAB94C260DD64D0089B3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB94B260DD64D0089B3E2 /* main.m */; };
 		30CAB956260DD64D0089B3E2 /* ZHToastViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB955260DD64D0089B3E2 /* ZHToastViewExampleTests.m */; };
 		30CAB961260DD64D0089B3E2 /* ZHToastViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB960260DD64D0089B3E2 /* ZHToastViewExampleUITests.m */; };
+		30CAB974260DDDBD0089B3E2 /* UIView+ZHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB973260DDDBD0089B3E2 /* UIView+ZHToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		30CAB95C260DD64D0089B3E2 /* ZHToastViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHToastViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CAB960260DD64D0089B3E2 /* ZHToastViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHToastViewExampleUITests.m; sourceTree = "<group>"; };
 		30CAB962260DD64D0089B3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CAB972260DDDBD0089B3E2 /* UIView+ZHToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHToast.h"; sourceTree = "<group>"; };
+		30CAB973260DDDBD0089B3E2 /* UIView+ZHToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHToast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		30CAB92D260DD6490089B3E2 = {
 			isa = PBXGroup;
 			children = (
+				30CAB971260DDD460089B3E2 /* ZHToastView */,
 				30CAB938260DD6490089B3E2 /* ZHToastViewExample */,
 				30CAB954260DD64D0089B3E2 /* ZHToastViewExampleTests */,
 				30CAB95F260DD64D0089B3E2 /* ZHToastViewExampleUITests */,
@@ -135,6 +139,15 @@
 				30CAB962260DD64D0089B3E2 /* Info.plist */,
 			);
 			path = ZHToastViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		30CAB971260DDD460089B3E2 /* ZHToastView */ = {
+			isa = PBXGroup;
+			children = (
+				30CAB972260DDDBD0089B3E2 /* UIView+ZHToast.h */,
+				30CAB973260DDDBD0089B3E2 /* UIView+ZHToast.m */,
+			);
+			path = ZHToastView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 				30CAB93B260DD6490089B3E2 /* AppDelegate.m in Sources */,
 				30CAB94C260DD64D0089B3E2 /* main.m in Sources */,
 				30CAB93E260DD6490089B3E2 /* SceneDelegate.m in Sources */,
+				30CAB974260DDDBD0089B3E2 /* UIView+ZHToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
